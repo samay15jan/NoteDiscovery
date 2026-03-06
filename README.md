@@ -1,4 +1,5 @@
 # 📝 NoteDiscovery
+REFER https://github.com/gamosoft/NoteDiscovery for latest version
 
 ![GitHub Stars](https://img.shields.io/github/stars/gamosoft/notediscovery?style=flat)
 ![Build](https://img.shields.io/github/actions/workflow/status/gamosoft/notediscovery/docker-publish.yml)
