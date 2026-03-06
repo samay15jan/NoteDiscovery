@@ -1,0 +1,36 @@
+/* Cyber Dark Theme */
+/* Adapted from Gruvbox Dark */
+
+:root[data-theme=cyber] {
+    /* Background colors */
+    --bg-primary: #101010;   /* Main background */
+    --bg-secondary: #161616; /* Sidebar / panels */
+    --bg-tertiary: #1c1c1c;  /* Inputs / code blocks */
+    --bg-hover: #242424;     /* Hover states */
+    --bg-active: #2e2e2e;    /* Active / selection */
+
+    /* Text colors */
+    --text-primary: #e6e6e6;
+    --text-secondary: #b0b0b0;
+    --text-tertiary: #808080;
+
+    /* Border colors */
+    --border-primary: #1f1f1f;
+    --border-secondary: #2a2a2a;
+
+    /* Accent colors - Purple */
+    --accent-primary: #7858b8;
+    --accent-hover: #6747a8;
+    --accent-light: rgba(120, 88, 184, 0.18);
+
+    /* Status colors */
+    --success: #6fbf73;
+    --error: #e05f5f;
+    --warning: #e6b450;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.55);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.65);
+}
+
