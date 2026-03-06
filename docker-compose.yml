@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  mirrorverse:
+    image: ghcr.io/gamosoft/notediscovery:latest
+    container_name: Mirrorverse
+    ports:
+      - "127.0.0.1:2425:8000"
+    volumes:
+      - ./Mirrorverse:/app/data
+    environment:
+      AUTHENTICATION_ENABLED: "true"
+      AUTHENTICATION_PASSWORD: ""
+      AUTHENTICATION_SECRET_KEY: ""
+    restart: unless-stopped
